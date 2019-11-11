@@ -7,11 +7,18 @@ button.innerText = "click";
 document.body.appendChild(button);
 button.style = "margin-top: 20px";
 let red = document.createElement("div");
+red.setAttribute("class", "circle");
 let yelow = document.createElement("div");
+yelow.setAttribute("class", "circle");
 let green = document.createElement("div");
-red.style = "width: 50px; height:50px; border: 1px black solid; border-radius: 100%; margin: 0 auto;";
-yelow.style = "width: 50px; height:50px; border: 1px black solid; border-radius: 100%; margin: 0 auto;";
-green.style = "width: 50px; height:50px; border: 1px black solid; border-radius: 100%; margin: 0 auto;";
+green.setAttribute("class", "circle");
+
+/*let circle = document.querySelectorAll("div");
+console.log(circle);
+circle.className = "circle";*/
+//как в js задать класс всем div одновременно?
+
+
 light.appendChild(red);
 light.appendChild(yelow);
 light.appendChild(green);
