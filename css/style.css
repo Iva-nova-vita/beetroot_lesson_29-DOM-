@@ -5,3 +5,12 @@
   border-radius: 100%;
   margin: 0 auto;
 }
+.red {
+    background-color: red;
+}
+.yelow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
